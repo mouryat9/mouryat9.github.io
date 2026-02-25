@@ -11,6 +11,12 @@
   .two-col {
     flex-direction: column;
     gap: 0.5rem;
+    height: auto !important;
+  }
+
+  .news__list,
+  .pub__grid {
+    max-height: 250px;
   }
 
   .sidebar {
