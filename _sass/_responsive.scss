@@ -10,13 +10,28 @@
 
   .two-col {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
     height: auto !important;
+  }
+
+  .two-col__left,
+  .two-col__right {
+    .content-section {
+      height: auto;
+      display: block;
+    }
   }
 
   .news__list,
   .pub__grid {
-    max-height: 250px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+
+  .project__card {
+    position: relative;
+    z-index: 1;
+    background: $color-white;
   }
 
   .sidebar {
