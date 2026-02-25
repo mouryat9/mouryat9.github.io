@@ -1,0 +1,19 @@
+<section class="section" id="awards">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__title">Awards & Honors</h2>
+    </div>
+    <div class="awards__list fade-in">
+      {% for award in site.data.awards %}
+      <div class="award__item">
+        <span class="award__year">{{ award.year }}</span>
+        <div class="award__info">
+          <strong>{{ award.title }}</strong>
+          {% if award.org %}<span class="text-muted"> — {{ award.org }}</span>{% endif %}
+          {% if award.description %}<p class="text-muted">{{ award.description }}</p>{% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

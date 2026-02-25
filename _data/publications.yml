@@ -1,0 +1,80 @@
+- title: "Exploring Multimodal Quiz Generation and Evaluation Aligned with Higher-Order Learning Objectives in Bloom's Taxonomy"
+  authors: "Mourya Teja Kunuku, et al."
+  venue: "International Conference on Artificial Intelligence in Education (AIED)"
+  year: 2025
+  selected: true
+  image: ""
+  links:
+    pdf: "#"
+
+- title: "From Reflection to Insight: Using LLM to Improve Learning Analytics in Higher Education"
+  authors: "Mourya Teja Kunuku, et al."
+  venue: "American Society for Engineering Education (ASEE)"
+  year: 2025
+  selected: true
+  image: ""
+  links:
+    pdf: "#"
+
+- title: "Affective Computing: A Topic-Based SER Approach on Collaborative Discussions in Academic Setting"
+  authors: "Mourya Teja Kunuku, et al."
+  venue: "Frontiers in Education (FIE)"
+  year: 2025
+  selected: true
+  image: ""
+  links:
+    pdf: "#"
+
+- title: "Personalized Pedagogy Through a LLM-Based Recommender System"
+  authors: "Mourya Teja Kunuku, et al."
+  venue: "International Conference on Artificial Intelligence in Education (AIED)"
+  year: 2024
+  selected: true
+  image: ""
+  links:
+    pdf: "#"
+
+- title: "An LLM-based Reflection Analysis Tool for Identifying and Addressing Challenging Topics"
+  authors: "Mourya Teja Kunuku, et al."
+  venue: "ACM Technical Symposium on Computer Science Education (SIGCSE)"
+  year: 2024
+  selected: true
+  image: ""
+  links:
+    pdf: "#"
+
+- title: "Enhanced Speech Recognition via A TensorFlow-Powered Lip Reading Model for Educational Applications"
+  authors: "Mourya Teja Kunuku, et al."
+  venue: "American Society for Engineering Education (ASEE)"
+  year: 2023
+  selected: false
+  image: ""
+  links:
+    pdf: "#"
+
+- title: "Additional Publication at FIE 2023"
+  authors: "Mourya Teja Kunuku, et al."
+  venue: "Frontiers in Education (FIE)"
+  year: 2023
+  selected: false
+  image: ""
+  links:
+    pdf: "#"
+
+- title: "Additional Publication at TOE 2023"
+  authors: "Mourya Teja Kunuku, et al."
+  venue: "Technology, Organizations, and Education (TOE)"
+  year: 2023
+  selected: false
+  image: ""
+  links:
+    pdf: "#"
+
+- title: "Additional Publication at AIED 2023"
+  authors: "Mourya Teja Kunuku, et al."
+  venue: "International Conference on Artificial Intelligence in Education (AIED)"
+  year: 2023
+  selected: false
+  image: ""
+  links:
+    pdf: "#"

@@ -1,0 +1,126 @@
+// =====================
+// Responsive Breakpoints
+// =====================
+
+// Tablet
+@media (max-width: 900px) {
+  .hero__inner {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: $space-lg;
+  }
+
+  .hero__description {
+    max-width: 100%;
+  }
+
+  .hero__links {
+    justify-content: center;
+  }
+
+  .hero__image-wrapper {
+    width: 220px;
+    height: 220px;
+  }
+
+  .project__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pub__card {
+    flex-direction: column;
+  }
+
+  .pub__image {
+    width: 100%;
+    height: 160px;
+  }
+}
+
+// Mobile
+@media (max-width: 640px) {
+  .nav__toggle {
+    display: flex;
+  }
+
+  .nav__links {
+    position: fixed;
+    top: $nav-height;
+    left: 0;
+    right: 0;
+    background: rgba($color-white, 0.98);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    flex-direction: column;
+    align-items: center;
+    padding: $space-lg 0;
+    gap: $space-sm;
+    transform: translateY(-120%);
+    transition: transform $transition-base;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+
+    &.open {
+      transform: translateY(0);
+    }
+
+    a {
+      font-size: 1.1rem;
+      padding: 0.5rem 0;
+    }
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: $nav-height + $space-lg;
+    padding-bottom: $space-xl;
+  }
+
+  .hero__name {
+    font-size: 2rem;
+  }
+
+  .hero__image-wrapper {
+    width: 180px;
+    height: 180px;
+  }
+
+  .hero__links {
+    flex-direction: column;
+    align-items: center;
+
+    .btn {
+      width: 100%;
+      max-width: 250px;
+      justify-content: center;
+    }
+  }
+
+  .section {
+    padding: $space-xl 0;
+  }
+
+  .news__item,
+  .award__item {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .news__date,
+  .award__year {
+    min-width: auto;
+  }
+
+  .project__card {
+    padding: $space-md;
+  }
+
+  .pub__card {
+    padding: $space-sm;
+  }
+
+  .footer__social a {
+    width: 38px;
+    height: 38px;
+    font-size: 1rem;
+  }
+}

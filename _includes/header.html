@@ -1,0 +1,18 @@
+<nav class="nav" id="navbar">
+  <div class="container nav__inner">
+    <a href="{{ '/' | relative_url }}" class="nav__logo">{{ site.title }}</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="{{ '/files/cv.pdf' | relative_url }}" target="_blank">CV</a></li>
+    </ul>
+  </div>
+</nav>

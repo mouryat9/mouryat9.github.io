@@ -1,0 +1,44 @@
+// =====================
+// Footer
+// =====================
+
+.footer {
+  background: $color-dark;
+  color: $color-text-muted-on-dark;
+  padding: $space-lg 0;
+}
+
+.footer__inner {
+  text-align: center;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: $space-sm;
+  margin-bottom: $space-sm;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: rgba($color-white, 0.08);
+    color: $color-text-muted-on-dark;
+    font-size: 1.1rem;
+    transition: all $transition-base;
+
+    &:hover {
+      background: $color-primary;
+      color: $color-white;
+      transform: translateY(-3px);
+    }
+  }
+}
+
+.footer__copy {
+  font-size: 0.85rem;
+  margin: 0;
+}

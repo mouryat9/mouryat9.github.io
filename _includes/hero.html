@@ -1,0 +1,35 @@
+<section class="hero" id="hero">
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <p class="hero__greeting">Hello, I'm</p>
+      <h1 class="hero__name">Mourya Teja Kunuku</h1>
+      <p class="hero__tagline">PhD Student in <strong>Computer Science</strong><br>at <strong>Kennesaw State University</strong></p>
+      <p class="hero__description">
+        I research <strong>LLMs, Retrieval-Augmented Generation, and Agentic AI</strong>
+        to develop adaptive, autonomous systems for interactive and personalized applications.
+      </p>
+      <div class="hero__links">
+        <a href="mailto:{{ site.email }}" class="btn btn--primary">
+          <i class="fas fa-envelope"></i> Email
+        </a>
+        <a href="https://github.com/{{ site.github_username }}" class="btn btn--outline" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="{{ site.google_scholar }}" class="btn btn--outline" target="_blank">
+          <i class="fas fa-graduation-cap"></i> Scholar
+        </a>
+        <a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="btn btn--outline" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="{{ '/files/cv.pdf' | relative_url }}" class="btn btn--outline" target="_blank">
+          <i class="fas fa-file-alt"></i> CV
+        </a>
+      </div>
+    </div>
+    <div class="hero__image">
+      <div class="hero__image-wrapper">
+        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="{{ site.author }}">
+      </div>
+    </div>
+  </div>
+</section>

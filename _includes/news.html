@@ -1,0 +1,15 @@
+<section class="section" id="news">
+  <div class="container">
+    <div class="section__header">
+      <h2 class="section__title">News</h2>
+    </div>
+    <div class="news__list fade-in">
+      {% for item in site.data.news limit:8 %}
+      <div class="news__item">
+        <span class="news__date">{{ item.date }}</span>
+        <span class="news__text">{{ item.content }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

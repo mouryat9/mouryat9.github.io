@@ -1,0 +1,30 @@
+# Site Settings
+title: "Mourya Teja Kunuku"
+description: "PhD Student in Computer Science | Kennesaw State University"
+url: "https://mouryat9.github.io"
+baseurl: ""
+author: "Mourya Teja Kunuku"
+
+# Social Links
+email: kunukumourya@gmail.com
+github_username: mouryat9
+twitter_username: ""
+linkedin_username: mourya-teja-kunuku
+google_scholar: "https://scholar.google.com/citations?user=g8bDezEAAAAJ&hl=en"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Sass
+sass:
+  style: compressed
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor
