@@ -26,18 +26,18 @@ layout: default
 
   <!-- Right Content -->
   <main class="content">
+    {% include about.html %}
 
-    <!-- About & News side by side -->
-    <div class="two-col" id="about-news">
+    <!-- News & Publications side by side -->
+    <div class="two-col" id="news-pubs">
       <div class="two-col__left">
-        {% include about.html %}
+        {% include news.html %}
       </div>
       <div class="two-col__right">
-        {% include news.html %}
+        {% include publications.html %}
       </div>
     </div>
 
-    {% include publications.html %}
     {% include projects.html %}
 
     <!-- Awards & Personal side by side -->
