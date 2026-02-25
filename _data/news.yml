@@ -2,10 +2,10 @@
   content: "Launched personal academic website!"
 
 - date: "Feb 2026"
-  content: "Building <strong>CogBench</strong> — 27K+ question benchmark for cognitive-level control in LLM generation. Targeting <strong>NeurIPS 2026</strong>."
+  content: "Building <strong>CogBench</strong>, a 27K+ question benchmark for cognitive-level control in LLM generation. Targeting <strong>NeurIPS 2026</strong>."
 
 - date: "Feb 2026"
-  content: "Developing <strong>AgentPDPR</strong> — agentic recommender for teaching strategies. Targeting <strong>ACM RecSys 2026</strong>."
+  content: "Developing <strong>AgentPDPR</strong>, an agentic recommender for teaching strategies. Targeting <strong>ACM RecSys 2026</strong>."
 
 - date: "Jul 2025"
   content: "Paper on Multimodal Quiz Generation accepted at <strong>AIED 2025</strong>."
@@ -14,7 +14,7 @@
   content: "Paper on LLM-driven Learning Analytics accepted at <strong>ASEE 2025</strong>."
 
 - date: "May 2025"
-  content: "Started second research internship at <strong>HP Inc.</strong> — on-device AI and model quantization."
+  content: "Started second research internship at <strong>HP Inc.</strong>, working on on-device AI and model quantization."
 
 - date: "Oct 2024"
   content: "Paper on Affective Computing accepted at <strong>FIE 2025</strong>."
@@ -23,7 +23,7 @@
   content: "Paper on Personalized Pedagogy accepted at <strong>AIED 2024</strong>."
 
 - date: "May 2024"
-  content: "Started first research internship at <strong>HP Inc.</strong> — LLM-based document extraction."
+  content: "Started first research internship at <strong>HP Inc.</strong>, working on LLM-based document extraction."
 
 - date: "Mar 2024"
   content: "Paper on LLM-based Reflection Analysis accepted at <strong>SIGCSE 2024</strong>."

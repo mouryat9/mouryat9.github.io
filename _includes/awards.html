@@ -6,7 +6,7 @@
       <span class="award__year">{{ award.year }}</span>
       <div class="award__info">
         <strong>{{ award.title }}</strong>
-        {% if award.org %}<span class="text-muted"> — {{ award.org }}</span>{% endif %}
+        {% if award.org %}<span class="text-muted">, {{ award.org }}</span>{% endif %}
       </div>
     </div>
     {% endfor %}
