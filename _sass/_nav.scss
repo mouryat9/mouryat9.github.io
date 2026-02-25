@@ -16,7 +16,7 @@
   transition: all $transition-base;
 
   &.scrolled {
-    height: 60px;
+    height: 45px;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06);
   }
 }
@@ -30,7 +30,7 @@
 
 .nav__logo {
   font-family: $font-heading;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: $color-dark;
   letter-spacing: -0.02em;
