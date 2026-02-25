@@ -6,10 +6,10 @@
 .about__content {
   max-width: 800px;
   margin: 0 auto;
-  font-size: 1.05rem;
+  font-size: 0.95rem;
 
   p + p {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
 }
 
@@ -21,8 +21,8 @@
 
 .news__item {
   display: flex;
-  gap: $space-md;
-  padding: $space-sm 0;
+  gap: $space-sm;
+  padding: 0.5rem 0;
   border-bottom: 1px solid $color-border;
   align-items: baseline;
 
@@ -53,8 +53,8 @@
 
 .award__item {
   display: flex;
-  gap: $space-md;
-  padding: $space-sm 0;
+  gap: $space-sm;
+  padding: 0.5rem 0;
   border-bottom: 1px solid $color-border;
   align-items: baseline;
 
@@ -86,14 +86,14 @@
 .personal__content {
   max-width: 700px;
   margin: 0 auto;
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   text-align: center;
 }
 
 // Projects
 .project__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: $space-md;
 }
 

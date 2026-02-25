@@ -3,10 +3,10 @@
 // =====================
 
 .hero {
-  padding-top: 134px; // nav-height(70) + space-xl(64)
+  padding-top: 100px;
   padding-bottom: $space-2xl;
   background: linear-gradient(135deg, $color-light 0%, $color-white 50%, $color-primary-light 100%);
-  min-height: 90vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
 }
@@ -31,7 +31,7 @@
 }
 
 .hero__name {
-  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-size: clamp(2rem, 5vw, 3rem);
   margin-bottom: $space-sm;
   background: linear-gradient(135deg, $color-dark 0%, $color-primary 100%);
   -webkit-background-clip: text;
