@@ -32,7 +32,7 @@
 }
 
 // =====================
-// Two-Column Layout (News + Pubs)
+// Two-Column Layout
 // =====================
 
 .two-col {
@@ -50,6 +50,30 @@
   .content-section {
     border-bottom: none;
     padding: 0;
+  }
+}
+
+// Scrollable news panel
+.news__list {
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 0.3rem;
+
+  // Thin scrollbar
+  &::-webkit-scrollbar {
+    width: 3px;
+  }
+  &::-webkit-scrollbar-track {
+    background: $color-light;
+    border-radius: 3px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba($color-primary, 0.3);
+    border-radius: 3px;
+
+    &:hover {
+      background: rgba($color-primary, 0.5);
+    }
   }
 }
 

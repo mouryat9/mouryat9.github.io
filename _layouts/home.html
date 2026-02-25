@@ -26,20 +26,29 @@ layout: default
 
   <!-- Right Content -->
   <main class="content">
-    {% include about.html %}
 
-    <!-- News & Publications side by side -->
-    <div class="two-col" id="news-pubs">
+    <!-- About & News side by side -->
+    <div class="two-col" id="about-news">
       <div class="two-col__left">
-        {% include news.html %}
+        {% include about.html %}
       </div>
       <div class="two-col__right">
-        {% include publications.html %}
+        {% include news.html %}
       </div>
     </div>
 
+    {% include publications.html %}
     {% include projects.html %}
-    {% include awards.html %}
-    {% include personal.html %}
+
+    <!-- Awards & Personal side by side -->
+    <div class="two-col" id="awards-personal">
+      <div class="two-col__left">
+        {% include awards.html %}
+      </div>
+      <div class="two-col__right">
+        {% include personal.html %}
+      </div>
+    </div>
+
   </main>
 </div>
