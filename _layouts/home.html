@@ -2,10 +2,44 @@
 layout: default
 ---
 
-{% include hero.html %}
-{% include about.html %}
-{% include news.html %}
-{% include publications.html %}
-{% include projects.html %}
-{% include awards.html %}
-{% include personal.html %}
+<div class="page-wrapper">
+  <!-- Left Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar__inner">
+      <div class="sidebar__photo">
+        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="{{ site.author }}">
+      </div>
+      <h1 class="sidebar__name">{{ site.author }}</h1>
+      <p class="sidebar__tagline">PhD in Computer Science<br><strong>Kennesaw State University</strong></p>
+      <p class="sidebar__bio">
+        Research: LLMs, RAG, Agentic AI, Multimodal Systems
+      </p>
+      <div class="sidebar__links">
+        <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://github.com/{{ site.github_username }}" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="{{ site.google_scholar }}" target="_blank"><i class="fas fa-graduation-cap"></i> Scholar</a>
+        <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="{{ '/files/cv.pdf' | relative_url }}" target="_blank"><i class="fas fa-file-alt"></i> CV</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Right Content -->
+  <main class="content">
+    {% include about.html %}
+
+    <!-- News & Publications side by side -->
+    <div class="two-col" id="news-pubs">
+      <div class="two-col__left">
+        {% include news.html %}
+      </div>
+      <div class="two-col__right">
+        {% include publications.html %}
+      </div>
+    </div>
+
+    {% include projects.html %}
+    {% include awards.html %}
+    {% include personal.html %}
+  </main>
+</div>

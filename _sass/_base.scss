@@ -66,61 +66,7 @@ ul, ol {
   padding-left: 1.2rem;
 }
 
-// Section base
-.section {
-  padding: $section-padding;
-}
-
-.section--dark {
-  background-color: $color-dark;
-  color: $color-text-on-dark;
-
-  h2, h3, h4 {
-    color: $color-white;
-  }
-
-  a {
-    color: $color-primary-light;
-
-    &:hover {
-      color: $color-white;
-    }
-  }
-}
-
-.section--alt {
-  background-color: $color-light;
-}
-
-// Section header
-.section__header {
-  margin-bottom: $space-lg;
-  text-align: center;
-}
-
-.section__title {
-  display: inline-block;
-  position: relative;
-  margin-bottom: $space-xs;
-
-  &::after {
-    content: '';
-    position: absolute;
-    bottom: -8px;
-    left: 0;
-    width: 60px;
-    height: 4px;
-    background: $color-primary;
-    border-radius: 2px;
-  }
-
-  .section__header & {
-    &::after {
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
-}
+// (old section classes removed — using content-section in _sections.scss)
 
 // Fade-in animation
 .fade-in {
