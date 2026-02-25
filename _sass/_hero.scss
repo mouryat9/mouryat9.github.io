@@ -3,7 +3,7 @@
 // =====================
 
 .hero {
-  padding-top: $nav-height + $space-xl;
+  padding-top: 134px; // nav-height(70) + space-xl(64)
   padding-bottom: $space-2xl;
   background: linear-gradient(135deg, $color-light 0%, $color-white 50%, $color-primary-light 100%);
   min-height: 90vh;
