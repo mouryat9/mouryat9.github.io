@@ -43,6 +43,10 @@
   align-items: stretch;
 }
 
+#news-pubs {
+  height: 340px;
+}
+
 .two-col__left,
 .two-col__right {
   flex: 1;
@@ -79,18 +83,18 @@
 // Scrollable news panel
 .news__list {
   flex: 1;
-  max-height: 320px;
   overflow-y: auto;
   padding-right: 0.3rem;
+  min-height: 0;
   @extend %thin-scrollbar;
 }
 
 // Scrollable publications panel
 .pub__grid {
   flex: 1;
-  max-height: 320px;
   overflow-y: auto;
   padding-right: 0.3rem;
+  min-height: 0;
   @extend %thin-scrollbar;
 }
 
