@@ -198,3 +198,21 @@
   color: $color-primary;
   border: 1px solid rgba($color-primary, 0.2);
 }
+
+.project__link {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: $color-primary;
+  text-decoration: none;
+
+  i {
+    margin-right: 0.15rem;
+    font-size: 0.6rem;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

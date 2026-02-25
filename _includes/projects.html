@@ -2,19 +2,36 @@
   <h2 class="content-section__title">Projects</h2>
   <div class="project__grid">
     <div class="project__card fade-in">
-      <h3><i class="fas fa-graduation-cap"></i> Dissertation: Multimodal AI for Education</h3>
-      <p>Three-tier platform: multimodal RAG over lecture videos (Whisper + CLIP + OCR), Bloom's-aligned cognitive scaffolding for assessment generation, and adaptive tutoring with Bloom's-aware retrieval. Evaluated on 11 SE lectures with 4-LLM judge panel achieving 89.6% agreement.</p>
-      <div class="project__tags"><span class="tag">Bloom's Taxonomy</span><span class="tag">Multimodal RAG</span><span class="tag">FAISS</span><span class="tag">Whisper</span></div>
+      <h3><i class="fas fa-graduation-cap"></i> Cogni-Reflect (Dissertation)</h3>
+      <p>AI-powered lecture video Q&A platform with multimodal RAG (Whisper + CLIP + OCR), Bloom's-aligned cognitive scaffolding, and adaptive tutoring. Evaluated on 11 SE lectures with 4-LLM judge panel achieving 89.6% agreement.</p>
+      <div class="project__tags"><span class="tag">Multimodal RAG</span><span class="tag">Bloom's</span><span class="tag">FAISS</span><span class="tag">Whisper</span></div>
+      <a href="https://classrooms.work" target="_blank" class="project__link"><i class="fas fa-external-link-alt"></i> classrooms.work</a>
     </div>
     <div class="project__card fade-in">
       <h3><i class="fas fa-chart-bar"></i> CogBench</h3>
-      <p>First benchmark for evaluating cognitive-level control in LLM question generation. 27K+ annotated questions across 16 subjects, with a BERT-based classifier (CCS) achieving 82% accuracy, outperforming frontier LLMs at Bloom's level classification. Targeting NeurIPS 2026.</p>
+      <p>First benchmark for evaluating cognitive-level control in LLM question generation. 27K+ annotated questions across 16 subjects, with a BERT-based classifier (CCS) achieving 82% accuracy. Targeting NeurIPS 2026.</p>
       <div class="project__tags"><span class="tag">Benchmark</span><span class="tag">BERT</span><span class="tag">Bloom's</span><span class="tag">NeurIPS</span></div>
     </div>
     <div class="project__card fade-in">
       <h3><i class="fas fa-robot"></i> AgentPDPR</h3>
-      <p>Agentic recommender for Pedagogical Design Patterns. Multi-strategy planning (ReAct, decomposition, adaptive routing) over 300+ structured PDPs with educator profiling, self-critique via PedQ framework, and session memory. Targeting ACM RecSys 2026.</p>
+      <p>Agentic recommender for Pedagogical Design Patterns. Multi-strategy planning (ReAct, decomposition, adaptive routing) over 300+ structured PDPs with educator profiling, self-critique, and session memory. Targeting ACM RecSys 2026.</p>
       <div class="project__tags"><span class="tag">Agentic AI</span><span class="tag">RecSys</span><span class="tag">FAISS</span><span class="tag">LiteLLM</span></div>
+    </div>
+    <div class="project__card fade-in">
+      <h3><i class="fas fa-search"></i> PDPR Explorer</h3>
+      <p>RAG-powered Streamlit app helping educators discover pedagogical solutions. Users enter teaching challenges and the system retrieves relevant design patterns from a FAISS vector database, grades relevance, and generates contextual answers via LLaMA.</p>
+      <div class="project__tags"><span class="tag">Streamlit</span><span class="tag">RAG</span><span class="tag">LLaMA</span><span class="tag">FAISS</span></div>
+    </div>
+    <div class="project__card fade-in">
+      <h3><i class="fas fa-shoe-prints"></i> Hopscotch</h3>
+      <p>Interactive web app that scaffolds educational research design through a guided 9-step process, powered by a local LLM and RAG. Supports classroom management, conceptual framework editing, and PDF export.</p>
+      <div class="project__tags"><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">Ollama</span><span class="tag">RAG</span></div>
+      <a href="https://hopscotchai.us" target="_blank" class="project__link"><i class="fas fa-external-link-alt"></i> hopscotchai.us</a>
+    </div>
+    <div class="project__card fade-in">
+      <h3><i class="fas fa-video"></i> Multimodal Quiz Generator</h3>
+      <p>End-to-end system that auto-generates quiz questions from lecture videos. Pipeline: video ingestion, Whisper transcription, FAISS indexing, and LLaMA-based quiz generation with MCQs, short answer, and higher-order questions.</p>
+      <div class="project__tags"><span class="tag">Whisper</span><span class="tag">Next.js</span><span class="tag">FastAPI</span><span class="tag">LLaMA</span></div>
     </div>
     <div class="project__card fade-in">
       <h3><i class="fas fa-microchip"></i> On-Device AI @ HP Inc.</h3>
