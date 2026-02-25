@@ -16,6 +16,8 @@ google_scholar: "https://scholar.google.com/citations?user=g8bDezEAAAAJ&hl=en"
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
+plugins:
+  - jekyll-feed
 
 # Sass
 sass:
@@ -28,3 +30,4 @@ exclude:
   - README.md
   - LICENSE
   - vendor
+  - "*.docx"
